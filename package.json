@@ -1,10 +1,29 @@
 {
-  "name": "vue-glow",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@aksharahegde/vue-glow",
+  "version": "1.0.0",
+  "description": "Glow your vue components",
+  "author": "Akshara Hegde <akshara.dt@gmail.com>",
+  "private": false,
+  "main": "dist/vue-glow.umd.js",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/vue-glow.umd.js",
+      "require": "./dist/vue-glow.umd.js"
+    },
+    "./tailwind": "./src/tailwind.js"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "npm run build:lib",
+    "build:lib": "vue-cli-service build --target lib --name vue-glow src/index.js",
+    "build:style:watch": "npm run build:style -- --watch",
+    "build:lib:watch": "npm run build:lib -- --watch",
+    "lint": "vue-cli-service lint",
+    "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
     "vue": "^3.2.13"
