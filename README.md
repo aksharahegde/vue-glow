@@ -2,8 +2,9 @@
 
 Add a mouse-tracing glow effect to Vue components.
 
-I also have developed plugin for Nuxt 3: https://github.com/aksharahegde/nuxt-glow
+Demo: https://vueglow-demo.vercel.app/
 
+I also have developed plugin for Nuxt 3: https://github.com/aksharahegde/nuxt-glow
 
 ## Installation
 
