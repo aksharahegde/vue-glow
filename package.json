@@ -26,10 +26,10 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
-    "vue": "^3.2.13"
+    "vue": "^3.4.21"
   },
   "devDependencies": {
-    "@vue/cli-service": "~5.0.0"
+    "@vue/cli-service": "~5.0.8"
   },
   "browserslist": [
     "> 1%",
