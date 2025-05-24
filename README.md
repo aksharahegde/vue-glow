@@ -58,6 +58,8 @@ The value of `color` will be available as a CSS variable `--glow-color`, as well
 You can pass any valid CSS color, including `hsl()` values etc.
 Of course, you might choose to use any other color; you can leave out the `color` prop entirely.
 
+## Downloads
+[View on NPM Chart Dev](https://npm.chart.dev/@aksharahegde/vue-glow?primary=emerald&gray=cool&theme=dark)
 
 ## Attribution
 - Module is inspired by [React Glow](https://github.com/codaworks/react-glow) by [Codaworks](https://github.com/codaworks)
