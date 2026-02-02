@@ -17,19 +17,19 @@
     "./tailwind": "./src/tailwind.js"
   },
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "npm run build:lib",
-    "build:lib": "vue-cli-service build --target lib --name vue-glow src/index.js",
-    "build:style:watch": "npm run build:style -- --watch",
-    "build:lib:watch": "npm run build:lib -- --watch",
-    "lint": "vue-cli-service lint",
-    "test:unit": "vue-cli-service test:unit"
+    "serve": "vite",
+    "build": "vite build",
+    "build:lib": "vite build",
+    "build:lib:watch": "vite build --watch"
   },
   "dependencies": {
-    "vue": "^3.5.16"
+    "vue": "^3.5.27"
   },
   "devDependencies": {
-    "@vue/cli-service": "~5.0.8"
+    "@vitejs/plugin-vue": "^6.0.4",
+    "autoprefixer": "^10.4.24",
+    "tailwindcss": "^3.4.19",
+    "vite": "^7.3.1"
   },
   "browserslist": [
     "> 1%",
