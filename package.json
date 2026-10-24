@@ -23,13 +23,13 @@
     "build:lib:watch": "vite build --watch"
   },
   "dependencies": {
-    "vue": "^3.5.27"
+    "vue": "^3.5.44"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^6.0.4",
-    "autoprefixer": "^10.4.24",
-    "tailwindcss": "^3.4.19",
-    "vite": "^7.3.1"
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitejs/plugin-vue": "^6.0.10",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.3.5"
   },
   "browserslist": [
     "> 1%",

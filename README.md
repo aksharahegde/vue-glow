@@ -25,13 +25,15 @@ Vue.use(VueGlow)
 
 2. Add the tailwind plugin to unlock the `glow:` variant and `glow` color
 
-`tailwind.config.js`
+Tailwind v4 (CSS):
+```css
+@plugin "@aksharahegde/vue-glow/tailwind";
+```
+
+Tailwind v3 (`tailwind.config.js`):
 ```js
 module.exports = {
-  ...
-  plugins: [
-    require("@aksharahegde/vue-glow/tailwind")
-  ]
+  plugins: [require("@aksharahegde/vue-glow/tailwind")]
 }
 ```
 
